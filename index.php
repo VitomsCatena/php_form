@@ -5,13 +5,15 @@
    <link ref="stylesheet" href="main.css">
 </head>
 <body>
-
+<header>
 <?php
 $txt = "PHP";
 echo "My $txt website!";
 ?>
+</header>
+   <div class="container">
 <p>This is just a test project of all i have learned</p>
-
+ <h3>My form</h3>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
 Name: <input type="text" name="name">
@@ -36,6 +38,7 @@ Gender:
 <input type="submit" name="submit" value="Submit">
 
 </form>
+   </div>
 <?php
  if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["name"])) {
