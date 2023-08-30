@@ -10,6 +10,9 @@
 $txt = "PHP";
 echo "My $txt website!";
 ?>
+<?php
+echo ata mimi sijui;
+?>
 </header>
    <div class="container">
 <p>This is just a test project of all i have learned</p>
